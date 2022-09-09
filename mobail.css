@@ -1,0 +1,265 @@
+ 
+
+ /* /-==================*Mobail=------------------ */
+
+ @media only screen and (max-width: 600px) {
+
+
+    * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            box-sizing: border-box;
+        }
+     .row {
+         width: 100%;
+         float: left;
+     }
+
+     .col-s-1 {
+         width: 8.33%;
+        float: left;
+     }
+
+     .col-s-2 {
+         width: 16.66%;
+        float: left;
+     }
+
+     .col-s-3 {
+         width: 25%;
+        float: left;
+     }
+
+     .col-s-4 {
+         width: 33.33%;
+        float: left;
+     }
+
+     .col-s-5 {
+         width: 41.66%;
+        float: left;
+     }
+
+     .col-s-6 {
+         width: 50%;
+        float: left;
+     }
+
+     .col-s-7 {
+         width: 58.33%;
+        float: left;
+     }
+
+     .col-s-8 {
+         width: 66.66%;
+        float: left;
+     }
+
+     .col-s-9 {
+         width: 75%;
+        float: left;
+     }
+
+     .col-s-10 {
+         width: 83.33%;
+        float: left;
+     }
+
+     .col-s-11 {
+         width: 91.66%;
+        float: left;
+     }
+
+     .col-s-12 {
+         width: 100%;
+         float: left;
+     }
+/* =------------------header-part=---------------- */
+     .b {
+         background-color: rgb(74, 130, 233);
+     }
+
+     ul i {
+         float: none;
+
+     }
+    .menu-part li{
+        padding: 0%;
+    }
+/* ------------------hero-part=---------------- */
+     .hero-part {
+         padding: 20px 50px 20px 0px;
+         text-align: start;
+        float: left;
+        display: inline;
+     }
+     .image-part{
+        text-align: start;
+        padding-block-end:-100px;
+     }
+     .writing-part{
+        padding: 0%;
+    }
+    .button2{
+        margin:20px 0px 0px 20px;
+    }
+    .iphone{
+      padding: 0%;
+     }
+     .iphone img{
+        position: relative;
+        right: 60px;
+     }
+    
+
+     ul li {
+         float: none;
+         padding: 20px 0px;
+         display: block;
+     }
+
+     ul {
+         width: 120px;
+         padding: 20px 0px;
+     }
+     .undl p{
+        position: static;
+     }
+         .btn-part a {
+             padding: 0%;
+             text-align: center;
+         }
+    
+         .btn-part {
+             padding: 0%;
+             margin: 0%;
+         }
+    
+         .button {
+             width: 55%;
+             float: left;
+         }
+
+
+/* ------------------service part===================== */
+
+.servic-writing-part{
+    padding: 0%;
+}
+ /* < !--============company-info-part==============--> */
+
+     .company-img-part {
+         position: relative;
+         right: 500px;
+     }
+
+     .company-writing-part {
+         text-align: center;
+     }
+/* < !-- -========App-resentation-part-========--> */
+
+     .App-presentation-icon-part {
+         padding-top: 100px;
+     }
+
+     .App-resentation-writing-part {
+         text-align: start;
+         text-align-last: left;
+     }
+    .App-resentation-writing-part br{
+        display: none;
+    }
+
+     .App-presentation-img-part1 {
+         padding-top: 100px;
+         padding-left: 100px;
+         position: static;
+         position: relative;
+         right: 130px;
+         
+     }
+     .app-presentation2-writing{
+        padding: 0%;
+        text-align-last:left;
+        text-align: start;
+     }
+     .icon-part1{
+        width: 100%;
+     }
+     .icon-part1 .writing{
+        padding-left: 20px;
+     }
+     .app-presentation2-writing br{
+        display: none;
+     }
+        .image1,.image2,.image3{
+            position: static;
+            padding: 0%;
+        }
+        .image1{
+            position: relative;
+            left: 0px;
+        }
+        .image2{
+        position: relative;
+        left: 160px;
+        }
+       .image3 {
+         position: relative;
+         right: 70px;
+     }
+/* < !--============company-info-part==============--> */
+
+     .company-writing-part {
+         padding: 20px;
+         text-align-last: left;
+         text-align: start;
+     }
+    .company-writing-part br{
+        display: none;
+    }
+
+/* < !-- -====================app-add-part-================--> */
+
+ .app-more-btn {
+     text-align: end;
+     position: relative;
+     left:40px;
+ }
+
+
+ /* -----------------------video-part=================== */
+
+ .video-play-part{
+    text-align-last: left;
+    text-align: start;
+ }
+ .video-play-part br{
+    display: none;
+ }
+  /* < !--=--------------------=--=-==-quote-part-=============-->*/
+
+  .quote-writing-part{
+    text-align-last: left;
+    text-align: start;
+    padding: 20px;
+  }
+  .quote-writing-part br{
+    display: none;
+  }
+ /* < !-- -=====================footer-part=----------------------- --> */
+
+ .footer-menu-part1{
+    padding-block: 30px 0px;
+ }
+ .btn-submit{
+    margin-top:20px;
+ }
+ /* =-------------------------.footer-bottom-======================== */
+
+ .footer-bottom-icon-part i{
+    padding-right:  5px;
+    padding-top: 20px;
+ }
+}

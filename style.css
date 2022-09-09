@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.container-box{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
+/* < !-- ------------------header-part=---------------- --> */
+
+header{
+    background-color: #223047;
+    color: #fff;
+}
+.undl p{
+    width: 100%;
+    border-top: 3px solid #b8babd;
+    position: relative;
+    top: 10px;
+}
+.header-part{
+    padding: 20px 0px;
+
+}
+
+.menu-part {
+    font-size: 10px;
+}
+
+.menu-part li {
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+/*=-=--==-=--= hero part =--==--==-=-=-=-*/
+
+.hero-part{
+    text-align: start;
+    padding: 100px 0px;
+}
+.writing-part p{
+    padding: 40px 0px;
+}
+.writing-part{
+    padding: 200px 0px 200px 200px;
+    
+}
+.iphone {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+.btn-part a {
+    padding: 10px;
+    background-color: #00fff0;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+i{
+    font-size: 25px;
+    padding-top: 5px;
+}
+.button1{
+    padding: 10px;
+        background-color: #00fff0;
+        margin: 0px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color:black;
+        position: relative;
+        right: 10px;
+}
+.button2{
+    border: 3px solid #777b81;
+    padding: 7px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #b8babd;
+    position: relative;
+    right: 10px;
+}
+/* i icon */
+.fa-angle-down {
+    font-size: 5px;
+    position: relative;
+    right: 15px;
+
+}
+/*=-=-=-=--= service section=--==--= */
+.service{
+    background-color: #ffffff;
+    color: #233148;
+    text-align: center;
+    font-size: 20px;
+}
+.service h1{
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.underline2{
+    width: 5%;
+    border-top: 3px solid #11fff1;
+    margin: auto;
+}
+.box-part{
+box-shadow: 0px 0px 3px gray;
+margin: 100px 0px;
+padding: 0px 10px;
+}
+.box-part p{
+padding: 25px 0px;
+}
+/* =-=--=-=-=company-info-part -=-=-==-=--=*/
+.company-info-part{
+    background-color: #f5f6fa;
+}
+.company-img-part{
+    position: relative;
+    right: 50px;
+}
+.company-writing-part h1{
+    padding-bottom: 50px;
+}
+.company-writing-part {
+    padding-top: 100px;
+}
+/* -==--==--==-App-resentation-part-==--==--= */
+.App-resentation-part{
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+}
+.App-resentation-writing-part{
+    padding-right: 100px;
+    text-align-last: right;
+}
+.App-resentation-writing-part h1{
+    font-size: 25px;
+}
+.App-resentation-writing-part p{
+    padding: 25px 0px;
+}
+.App-resentation-writing-part a{
+    text-decoration: none;
+    background-color: #00fff0;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    color: black;
+}
+.App-presentation-img-part2{
+    position: relative;
+    top: 100px;
+}
+.App-presentation-box-part2{
+    padding-top:100px;
+}
+.icon-part1{
+    border: 5px solid #f7f7f8;
+    margin: 10px 0px;
+    padding: 20px 0px 20px 20px;
+}
+.icon-part1:hover{
+background-color: #00fff0;
+}
+/* =========app-presentation2========== */
+
+.app-presentation2{
+    background-color: #f5f6fa;
+    text-align: center;
+}
+.app-presentation2-writing h1{
+    padding: 100px 0px;
+    font-size: 35px;
+}
+.app-presentation2-writing-part{
+    text-align-last: right;
+}
+.app-presentation2-writing{
+    text-align-last: right;
+}
+.check-mark{
+    text-align:center;
+}
+.check-mark i{
+    padding: 20px;
+}
+.check-mark h4{
+    display: inline-block;
+}
+.app-presentation2-box image{
+    display: inline-block;
+}
+.app-presentation2-img{
+    padding-top:100px;
+    display: inline-block;
+    text-align: justify;
+}
+.image-part{
+    text-align: justify;
+}
+.image1{
+    position: relative;
+    left: 80px;
+    top: 170px;
+}
+.image2{
+    position: relative;
+    left: 100px;
+    top: 168px;
+}
+.image3{
+    position: relative;
+    right: 300px;
+    top: 35px;
+}
+ /* -==--=-==--=-=video part=-=-=-=-=--=-= */
+
+.video{
+    text-align: center;
+    background-color: #223047;
+    color: black;
+}
+.video-play-part{
+    margin: 200px 0px;
+    color: #ffffff;
+}
+.video-play-part h1{
+    padding: 20px 0px;
+}
+.video-play-part p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* -=-==----------=-=--=download-part=---------------- */
+.download-part{
+    background-color: #ffffff;
+    text-align: center;
+}
+.download-writing-part{
+    margin: 200px 0px;
+    font-size: 20px;
+    color: #777b81;
+}
+.btn-download{
+    padding-top: 50px;
+}
+.download-writing-part p{
+    padding: 20px 0px;
+}
+.download-writing-part a{
+    background-color: #11fff1;
+    padding: 10px 50px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+/* =--------------------------quote-part=------------- */
+
+.quote-writing-part{
+    padding: 100px 0px;
+    color: #11fff1;
+}
+.quote-part{
+    background-color: #223047;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* -=================--=-==--=app add part-================ */
+
+.app-add-part{
+    background-color: #f5f6fa;
+}
+.app-image-part{
+    text-align: center;
+    padding-top:100px;
+}
+.app-writing-part{
+    padding: 200px 0px 0px 0px;
+    color: #939aa7;
+}
+.app-writing-part p{
+    padding: 25px 0px;
+}
+a .app-store{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.app-writing-part h1{
+    font-size: 40px;
+    color: #101b2c;
+}
+.app-more-btn{
+    text-align: center;
+}
+.app-more-btn a{
+    text-decoration: none;
+    background-color: #00fff0;
+    padding: 20px 50px 20px 60px;
+    border-radius: 5px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+}
+
+/* =-----------------------footer-part-================== */
+
+.footer-menu-part{
+    background-color: #ffffff;
+    text-align: center;
+}
+.footer-menu-part1{
+    padding: 100px 0px 80px 0px;
+}
+.footer-menu1{
+    padding-top: 20px;
+}
+.footer-menu1 a{
+    text-decoration: none;
+}
+.footer-menu1 li{
+    list-style: none;
+    padding: 5px 0px;
+}
+
+/* =-------------------=-footer-writing-part=----------------- */
+
+.subscribe-writing-part{
+    text-align: center;
+    color: #233148;
+}
+.subscribe-writing-part h1{
+    font-size: 30px;
+}
+.subscribe-writing-part p{
+    padding: 20px 0px;
+    font-weight: 500;
+}
+.comment{
+    padding: 10px 150px;
+    background-color: #f5f6fa;
+
+}
+.btn-submit{
+    padding: 15px 35px;
+    background-color: #00fff0;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.coment-btn{
+    padding: 60px 0px 80px 10px;
+}
+/* =----------------------footer-bottom-=============-= */
+
+.footer-bottom{
+    background-color: #223047;
+    color: #00fff0;
+    padding: 25px 0px;
+    text-align: center;
+}
+.footer-bottom-icon-part{
+    color: #fff;
+}
+.footer-bottom-icon-part i{
+    padding:0px 20px;
+}
+
